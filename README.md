@@ -228,7 +228,7 @@ notebook can be understood by other people like your colleagues
   2021-03-12 15:44:39,840 Uploading sample.csv to Weights & Biases
   ```
   This tells you that the data is going to be stored in W&B as the artifact named ``sample.csv``.
-# START HERE
+
 2. Now execute the `eda` step:
    ```bash
    > mlflow run src/eda
@@ -236,6 +236,7 @@ notebook can be understood by other people like your colleagues
    This will install Jupyter and all the dependencies for `pandas-profiling`, and open a Jupyter notebook instance.
    Click on New -> Python 3 and create a new notebook. Rename it `EDA` by clicking on `Untitled` at the top, beside the
    Jupyter logo.
+
 3. Within the notebook, fetch the artifact we just created (``sample.csv``) from W&B and read
    it with pandas:
 
@@ -567,3 +568,8 @@ you have trained your new model on the new data.
 ## License
 
 [License](LICENSE.txt)
+
+
+## Code Location
+[WANDB Project Link](https://wandb.ai/mmaletic/nyc_airbnb/)
+[GitHub Link](https://github.com/mitchm17/build-ml-pipeline-for-short-term-rental-prices)
